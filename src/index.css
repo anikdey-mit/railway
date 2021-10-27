@@ -1,13 +1,99 @@
+/*
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+*/
+
+body {
+  margin: 0;
+  padding: 0 0 0 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+.btn btn-primary {
+  margin-top: 10px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+.container {
+  margin-top: 30px;
+}
+
+/*
+
+<table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Train Number</th>
+              <th>Train Name</th>
+              <th>Departure</th>
+              <th>Destination</th>
+              <th>Departs At</th>
+              <th>No of Seats</th>
+              <th>Off Day</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>778</td>
+              <td>Dhumketu Express</td>
+              <td>Dhaka</td>
+              <td>Rajshahi</td>
+              <td>06:30</td>
+              <td>500</td>
+              <td>Friday</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>780</td>
+              <td>Surma Express</td>
+              <td>Dhaka</td>
+              <td>Sylhet</td>
+              <td>10:00</td>
+              <td>500</td>
+              <td>Saturday</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>728</td>
+              <td>Chitra Express</td>
+              <td>Khulna</td>
+              <td>Dhaka</td>
+              <td>09:00</td>
+              <td>500</td>
+              <td>Monday</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>729</td>
+              <td>Mohanagar Express</td>
+              <td>Chittagong</td>
+              <td>Dhaka</td>
+              <td>17:00</td>
+              <td>500</td>
+              <td>Tuesday</td>
+            </tr>
+          </tbody>
+        </table>
+
+*/
